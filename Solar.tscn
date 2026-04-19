@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://tl8fua5x6w7a"]
+
+[ext_resource type="Script" path="res://solar.gd" id="1_1nhly"]
+[ext_resource type="Texture2D" uid="uid://nn5nlact1755" path="res://Gemini_Generated_Image_250npc250npc250n-removebg-preview.png" id="1_qk4t2"]
+
+[node name="Solar" type="Sprite2D"]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_qk4t2")
+script = ExtResource("1_1nhly")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://d12t5mwxcr6mj"]
+
+[ext_resource type="Texture2D" uid="uid://83ju0k0i4qgm" path="res://Gemini_Generated_Image_h61jnuh61jnuh61j-removebg-preview.png" id="1_4gwwo"]
+[ext_resource type="Script" path="res://coal.gd" id="1_16lld"]
+
+[node name="Coal" type="Sprite2D"]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_4gwwo")
+script = ExtResource("1_16lld")

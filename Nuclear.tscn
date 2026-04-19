@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://8snoahmt85hg"]
+
+[ext_resource type="Texture2D" uid="uid://c71q4mnm36s7p" path="res://Gemini_Generated_Image_n3ay29n3ay29n3ay-removebg-preview.png" id="1_2owa3"]
+[ext_resource type="Script" path="res://nuclear.gd" id="1_g044a"]
+
+[node name="Nuclear" type="Sprite2D"]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_2owa3")
+script = ExtResource("1_g044a")
